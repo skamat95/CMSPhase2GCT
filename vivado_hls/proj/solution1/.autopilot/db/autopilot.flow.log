@@ -1,0 +1,1476 @@
+INFO-FLOW: Workspace /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1 opened at Mon Jan 21 16:11:45 CET 2019
+Command     open_solution done; 0.11 sec.
+Execute     source ./solution.tcl 
+Execute       set_part xc7vx690tffg1927-2 
+Execute         add_library xilinx/virtex7/virtex7:xc7vx690t:ffg1927:-2 
+Execute           get_default_platform 
+Execute           license_isbetapart xc7vx690t 
+Command           license_isbetapart done; error code: 1; 
+Execute           open_platform DefaultPlatform 
+Execute           import_lib /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.lib 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.lib 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.lib 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.lib 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.lib 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.lib 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.lib 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.lib 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.lib 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.lib 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_old.lib 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_vivado.lib 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/dsp48e1.hlp 
+Execute             get_default_platform 
+Execute             config_chip_info -quiet -resource  {SLICE 91050 } {LUT 364200 } {FF 728400 } {DSP48E 1260} {BRAM 1590}  
+Execute             config_chip_info -quiet -speed medium 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute                   source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute                   source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command               ap_source done; 0.12 sec.
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command             ap_source done; 0.12 sec.
+Command           ap_source done; 0.12 sec.
+Execute           get_default_platform 
+Execute           config_chip_info -quiet -resource  {SLICE 108300} {LUT 433200 } {FF 866400 } {DSP48E 3600} {BRAM 2940}  
+Execute           config_chip_info -quiet -speed medium 
+Command         add_library done; 0.2 sec.
+Execute         add_library xilinx/virtex7/virtex7_fpv6 
+Execute           get_default_platform 
+Execute           open_platform DefaultPlatform 
+Execute           import_lib /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7_fpv6 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_hp.lib 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute                   source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute                   source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7_hp.hlp 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7_fpv6.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+INFO: [HLS 200-10] Setting target device to 'xc7vx690tffg1927-2'
+Execute         get_default_platform 
+Command       set_part done; 0.26 sec.
+Execute       create_clock -period 120MHz -name default 
+Execute         config_clock -quiet -name default -period 8.3333333333333339 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 8.33333ns.
+Command     ap_source done; 0.26 sec.
+Execute     source ./directives.tcl 
+Execute     csim_design -argv test1 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/rnd_out_ref.txt 
+Execute       is_xip /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/rnd_out_ref.txt 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/rnd_inp.txt 
+Execute       is_xip /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/rnd_inp.txt 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/test1_out_ref.txt 
+Execute       is_xip /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/test1_out_ref.txt 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/test1_inp.txt 
+Execute       is_xip /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/test1_inp.txt 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/algo_unpacked_tb.cpp 
+Execute       is_xip /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/algo_unpacked_tb.cpp 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/GCT.cc 
+Execute       is_xip /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/GCT.cc 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/algo_unpacked.cpp 
+Execute       is_xip /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/algo_unpacked.cpp 
+Execute       get_default_platform 
+Execute       source run_sim.tcl 
+Command       ap_source done; 0.27 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command     csim_design done; 3.13 sec.
+Execute     csynth_design 
+Execute       get_config_compile -effort 
+Execute       get_config_compile -enable_clang39 
+Execute       get_config_compile -g 
+Execute       get_config_compile -lm 
+Execute       get_config_compile -ng 
+Execute       get_config_compile -opt_fp 
+Execute       get_config_compile -skip_cdt 
+Execute       get_config_compile -skip_syncheck 
+Execute       get_config_compile -skip_transform 
+Execute       get_config_compile -keep_printf 
+Execute       elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -lm=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+Execute         get_config_schedule -relax_ii_for_timing 
+Execute         get_config_schedule -suppress_dependence_error_break 
+INFO: [HLS 200-10] Analyzing design file 'src/GCT.cc' ... 
+INFO-FLOW: Compiling one TU...
+Execute         is_m_axi_addr64 
+INFO-FLOW: Handling src/GCT.cc as C++
+Execute         get_default_platform 
+Execute         is_encrypted src/GCT.cc 
+Execute         get_default_platform 
+INFO-FLOW: Source preprocessing
+Execute         clang  -fno-limit-debug-info -gcc-toolchain "/data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "src/GCT.cc"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc" 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E src/GCT.cc -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc
+Command         clang done; 1.3 sec.
+INFO-FLOW: Syntax Checking before pre-processing...
+Execute         clang  -fno-limit-debug-info -gcc-toolchain "/data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc"  -o "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/useless.bc"  
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/useless.bc
+WARNING: [HLS 200-40] In file included from src/GCT.cc:1:
+In file included from src/GCT.cc:1:
+src/GCT.hh:3:17: warning: using directive refers to implicitly-defined namespace 'std'
+using namespace std;
+                ^
+1 warning generated.\n
+Command         clang done; 1.33 sec.
+INFO-FLOW: GCC PP time: 2 seconds per iteration
+Execute         list_core -type functional_unit 
+Execute         tidy_31 xilinx-systemc-detector /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc std=gnu++98 -directive=/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/.systemc_flag -quiet -fix-errors /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 0.17 sec.
+INFO-FLOW: CDT Preprocessing with tidy-3.1...
+Execute         tidy_31 xilinx-directive2pragma /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc std=gnu++98 -directive=/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/solution1.json 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/solution1.json -quiet -fix-errors /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 0.15 sec.
+Execute         get_config_dataflow -strict_mode 
+Execute         ap_eval exec -ignorestderr /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.GCT.pp.0.cc.diag.yml /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc -- -std=gnu++98 -fhls -ferror-limit=0 -fstrict-dataflow > /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.GCT.pp.0.cc.out.log 2> /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.GCT.pp.0.cc.err.log 
+Command         ap_eval done; 0.13 sec.
+Execute         tidy_31 -errorcheck xilinx-constantarray-param,xilinx-resource-pragma-transformer /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc std=gnu++98 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-resource-pragma-transformer -quiet -fix-errors /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc -- -std=gnu++98 -fhls -ferror-limit=0
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-legacy-rewriter /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pp.0.cc -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 0.46 sec.
+INFO-FLOW: tidy-3.1 time 0 seconds per iteration
+INFO-FLOW: Pragma Handling...
+Execute         tidy_31 xilinx-ssdm-intrinsics-arguments /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pragma.1.cc std=gnu++98 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-ssdm-intrinsics-arguments -quiet -fix-errors /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pragma.1.cc -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 0.39 sec.
+INFO-FLOW: Source preprocessing
+Execute         clang  -fno-limit-debug-info -gcc-toolchain "/data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pragma.1.cc"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pragma.2.cc" 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pragma.1.cc -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pragma.2.cc
+Command         clang done; 1.24 sec.
+Execute         get_default_platform 
+INFO-FLOW: Processing labels
+Execute         clang -src /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pragma.2.cc  -fno-limit-debug-info -gcc-toolchain /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pragma.2.cc"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.bc" 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.pragma.2.cc -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.bc
+Command         clang done; 1.39 sec.
+INFO: [HLS 200-10] Analyzing design file 'src/algo_unpacked.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute         is_m_axi_addr64 
+INFO-FLOW: Handling src/algo_unpacked.cpp as C++
+Execute         get_default_platform 
+Execute         is_encrypted src/algo_unpacked.cpp 
+Execute         get_default_platform 
+INFO-FLOW: Source preprocessing
+Execute         clang  -fno-limit-debug-info -gcc-toolchain "/data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "src/algo_unpacked.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp" 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E src/algo_unpacked.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp
+Command         clang done; 1.33 sec.
+INFO-FLOW: Syntax Checking before pre-processing...
+Execute         clang  -fno-limit-debug-info -gcc-toolchain "/data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp"  -o "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/useless.bc"  
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/useless.bc
+Command         clang done; 1.85 sec.
+INFO-FLOW: GCC PP time: 3 seconds per iteration
+Execute         list_core -type functional_unit 
+Execute         tidy_31 xilinx-systemc-detector /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp std=gnu++98 -directive=/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/.systemc_flag -quiet -fix-errors /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 0.92 sec.
+INFO-FLOW: CDT Preprocessing with tidy-3.1...
+Execute         tidy_31 xilinx-directive2pragma /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp std=gnu++98 -directive=/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/solution1.json 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/solution1.json -quiet -fix-errors /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 0.94 sec.
+Execute         get_config_dataflow -strict_mode 
+Execute         ap_eval exec -ignorestderr /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.algo_unpacked.pp.0.cpp.diag.yml /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 -fstrict-dataflow > /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.algo_unpacked.pp.0.cpp.out.log 2> /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.algo_unpacked.pp.0.cpp.err.log 
+Command         ap_eval done; 0.73 sec.
+Execute         tidy_31 -errorcheck xilinx-constantarray-param,xilinx-resource-pragma-transformer /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp std=gnu++98 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-resource-pragma-transformer -quiet -fix-errors /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-legacy-rewriter /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 2.49 sec.
+INFO-FLOW: tidy-3.1 time 4 seconds per iteration
+INFO-FLOW: Pragma Handling...
+Execute         tidy_31 xilinx-ssdm-intrinsics-arguments /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pragma.1.cpp std=gnu++98 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-ssdm-intrinsics-arguments -quiet -fix-errors /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pragma.1.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 1.82 sec.
+INFO-FLOW: Source preprocessing
+Execute         clang  -fno-limit-debug-info -gcc-toolchain "/data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pragma.1.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pragma.2.cpp" 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pragma.1.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pragma.2.cpp
+Command         clang done; 1.51 sec.
+Execute         get_default_platform 
+INFO-FLOW: Processing labels
+Execute         clang -src /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pragma.2.cpp  -fno-limit-debug-info -gcc-toolchain /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pragma.2.cpp"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "/data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o "/data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.bc" 
+INFO-FLOW: exec /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /data/tools/Xilinx/Vivado/2018.2/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.pragma.2.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot -I /data/tools/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.bc
+Command         clang done; 2.05 sec.
+INFO-FLOW: Linking Debug ...
+Execute         llvm-ld /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.g.bc /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.g.bc -hls-opt -except-internalize algo_unpacked -L/data/tools/Xilinx/Vivado/2018.2/lnx64/lib -lhlsm -lhlsmc++ -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.g 
+Command         llvm-ld done; 0.78 sec.
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 361.145 ; gain = 0.340 ; free physical = 8107 ; free virtual = 75538
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 361.145 ; gain = 0.340 ; free physical = 8107 ; free virtual = 75538
+Execute         ::config_rtl 
+Execute         opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute           cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+Execute           transform -promote-dbg-pointer /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.pp.bc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.pp.0.bc -f 
+Execute           llvm-ld /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.pp.0.bc -disable-opt -L/data/tools/Xilinx/Vivado/2018.2/lnx64/lib -lfloatconversion -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.g.0 
+Command           llvm-ld done; 0.77 sec.
+INFO-FLOW: Running Standard Transforms...
+Execute           transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top algo_unpacked -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.g.0.bc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+Command           transform done; 0.17 sec.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 361.344 ; gain = 0.539 ; free physical = 7998 ; free virtual = 75431
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute           transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.g.1.bc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.g.2.prechk.bc -f 
+Command           transform done; 0.15 sec.
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute           transform -syn-check /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.g.2.prechk.bc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+WARNING: [SYNCHK 200-23] src/algo_unpacked.cpp:91: variable-indexed range selection may cause suboptimal QoR.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 361.344 ; gain = 0.539 ; free physical = 7972 ; free virtual = 75406
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.g.1.bc to /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute           transform -hls -tmp /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db -interface-port-rename -type-info -function-uniquify -directive-preproc -mem2reg -dse -dce -disaggr -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -function-uniquify -resource-proc -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -clib-intrinsic-prepare -dce -func-buffer -dce -array-normalize -func-legal -instcombine -gvn -constprop -dce -ptrArgReplace -mem2reg -instcombine -dce -array-seg-normalize -deadargelim -instcombine -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -auto-par -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -duplicate-dataflow-processes -globaldce -instcombine -array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -instcombine -dce -global-constprop -deadargelim -mem2reg -instcombine -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -instcombine -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -inst-simplify -dce -norm-name -function-inline -globaldce -func-inst -constprop -instcombine -simplifycfg -dce -func-legal -dce -loop-bound -arraycheck -bitwidthmin -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -check-dataflow-syntax -legalize-stream-variable -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -deadargelim -annotate-dataflow-channels -scalar-propagation -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -function-uniquify -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -norm-name /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.o.1.bc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.o.1.tmp.bc -f 
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'algo_unpacked' (src/algo_unpacked.cpp:22).
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'GCT' (src/GCT.cc:4).
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'merge_acrossphi' (src/GCT.cc:253).
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1' (src/algo_unpacked.cpp:73) in function 'algo_unpacked' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-2' (src/algo_unpacked.cpp:78) in function 'algo_unpacked' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-2.1' (src/algo_unpacked.cpp:80) in function 'algo_unpacked' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-3' (src/algo_unpacked.cpp:153) in function 'algo_unpacked' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-3.1' (src/algo_unpacked.cpp:155) in function 'algo_unpacked' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-4' (src/algo_unpacked.cpp:196) in function 'algo_unpacked' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1' (src/GCT.cc:94) in function 'GCT' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1' (src/GCT.cc:96) in function 'GCT' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1' (src/GCT.cc:294) in function 'merge_acrossphi' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1' (src/GCT.cc:296) in function 'merge_acrossphi' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-2' (src/GCT.cc:312) in function 'merge_acrossphi' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-2.1' (src/GCT.cc:314) in function 'merge_acrossphi' completely.
+INFO: [XFORM 203-101] Partitioning array 'link_in.V' (src/algo_unpacked.cpp:22) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'link_out.V' (src/algo_unpacked.cpp:22) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'peakEta_Pos' (src/algo_unpacked.cpp:47) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'peakPhi_Pos' (src/algo_unpacked.cpp:48) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'towerEta_Pos' (src/algo_unpacked.cpp:49) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'towerPhi_Pos' (src/algo_unpacked.cpp:50) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'ClusterET_Pos' (src/algo_unpacked.cpp:51) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'peakEta_Neg' (src/algo_unpacked.cpp:53) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'peakPhi_Neg' (src/algo_unpacked.cpp:54) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'towerEta_Neg' (src/algo_unpacked.cpp:55) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'towerPhi_Neg' (src/algo_unpacked.cpp:56) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'ClusterET_Neg' (src/algo_unpacked.cpp:57) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outpeakEta_Pos'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outpeakPhi_Pos'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outtowerEta_Pos'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outtowerPhi_Pos'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outClusterET_Pos'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outpeakEta_Neg'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outpeakPhi_Neg'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outtowerEta_Neg'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outtowerPhi_Neg'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outClusterET_Neg'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakEta' (src/GCT.cc:75) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakPhi' (src/GCT.cc:76) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergeclusterET' (src/GCT.cc:77) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakEta_b' (src/GCT.cc:79) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakPhi_b' (src/GCT.cc:80) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergeclusterET_b' (src/GCT.cc:81) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakEta' (src/GCT.cc:281) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakPhi' (src/GCT.cc:282) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergetowerEta' (src/GCT.cc:283) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergetowerPhi' (src/GCT.cc:284) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergeclusterET' (src/GCT.cc:285) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'peakEta_Pos' (src/algo_unpacked.cpp:47) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'peakPhi_Pos' (src/algo_unpacked.cpp:48) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'towerEta_Pos' (src/algo_unpacked.cpp:49) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'towerPhi_Pos' (src/algo_unpacked.cpp:50) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'ClusterET_Pos' (src/algo_unpacked.cpp:51) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'peakEta_Neg' (src/algo_unpacked.cpp:53) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'peakPhi_Neg' (src/algo_unpacked.cpp:54) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'towerEta_Neg' (src/algo_unpacked.cpp:55) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'towerPhi_Neg' (src/algo_unpacked.cpp:56) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'ClusterET_Neg' (src/algo_unpacked.cpp:57) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'outpeakEta_Pos'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'outpeakPhi_Pos'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'outtowerEta_Pos'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'outtowerPhi_Pos'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'outClusterET_Pos'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'outpeakEta_Neg'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'outpeakPhi_Neg'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'outtowerEta_Neg'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'outtowerPhi_Neg'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'outClusterET_Neg'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakEta' (src/GCT.cc:75) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakPhi' (src/GCT.cc:76) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergeclusterET' (src/GCT.cc:77) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakEta_b' (src/GCT.cc:79) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakPhi_b' (src/GCT.cc:80) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergeclusterET_b' (src/GCT.cc:81) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakEta' (src/GCT.cc:281) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergepeakPhi' (src/GCT.cc:282) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergetowerEta' (src/GCT.cc:283) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergetowerPhi' (src/GCT.cc:284) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'preMergeclusterET' (src/GCT.cc:285) in dimension 2 completely.
+Command           transform done; 36.18 sec.
+INFO-FLOW: Presyn 2...
+Execute           transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -norm-name /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.o.1.tmp.bc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 6 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 6 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 6 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (src/GCT.cc:327:10) to (src/GCT.cc:327:10) in function 'merge_acrossphi'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock in function 'mergeClusters1'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock in function 'mergeClusters'... converting 3 basic blocks.
+Command           transform done; 13.17 sec.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:01:13 ; elapsed = 00:01:16 . Memory (MB): peak = 553.020 ; gain = 192.215 ; free physical = 6890 ; free virtual = 74326
+INFO-FLOW: Building ssdm...
+Execute           transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -instcombine -dce -reset-lda -loop-simplify -indvars -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -axi4-lower -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -loop-rewind -pointer-simplify -dce -cfgopt -dce -bitwidth -loop-dep -read-loop-dep -dce -check-stream -norm-name -legalize -validate-dataflow -dead-allocation-elimination -cdfg-build /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.o.2.bc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+Command           transform done; 23.39 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:36 ; elapsed = 00:01:40 . Memory (MB): peak = 681.020 ; gain = 320.215 ; free physical = 7021 ; free virtual = 74155
+INFO-FLOW: Finish building internal data model.
+Command         opt_and_import_c done; 74.4 sec.
+Command       elaborate done; 96.11 sec.
+Execute       autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'algo_unpacked' ...
+Execute         ap_set_top_model algo_unpacked 
+Execute         get_model_list algo_unpacked -filter all-wo-channel -topdown 
+Execute         preproc_iomode -model algo_unpacked 
+Execute         preproc_iomode -model GCT 
+Execute         preproc_iomode -model mergeClusters1 
+Execute         preproc_iomode -model merge_acrossphi 
+Execute         preproc_iomode -model mergeClusters 
+Execute         get_model_list algo_unpacked -filter all-wo-channel 
+INFO-FLOW: Model list for configure: mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked
+INFO-FLOW: Configuring Module : mergeClusters ...
+Execute         set_default_model mergeClusters 
+Execute         apply_spec_resource_limit mergeClusters 
+INFO-FLOW: Configuring Module : merge_acrossphi ...
+Execute         set_default_model merge_acrossphi 
+Execute         apply_spec_resource_limit merge_acrossphi 
+INFO-FLOW: Configuring Module : mergeClusters1 ...
+Execute         set_default_model mergeClusters1 
+Execute         apply_spec_resource_limit mergeClusters1 
+INFO-FLOW: Configuring Module : GCT ...
+Execute         set_default_model GCT 
+Execute         apply_spec_resource_limit GCT 
+INFO-FLOW: Configuring Module : algo_unpacked ...
+Execute         set_default_model algo_unpacked 
+Execute         apply_spec_resource_limit algo_unpacked 
+INFO-FLOW: Model list for preprocess: mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked
+INFO-FLOW: Preprocessing Module: mergeClusters ...
+Execute         set_default_model mergeClusters 
+Execute         cdfg_preprocess -model mergeClusters 
+Execute         rtl_gen_preprocess mergeClusters 
+INFO-FLOW: Preprocessing Module: merge_acrossphi ...
+Execute         set_default_model merge_acrossphi 
+Execute         cdfg_preprocess -model merge_acrossphi 
+Execute         rtl_gen_preprocess merge_acrossphi 
+INFO-FLOW: Preprocessing Module: mergeClusters1 ...
+Execute         set_default_model mergeClusters1 
+Execute         cdfg_preprocess -model mergeClusters1 
+Execute         rtl_gen_preprocess mergeClusters1 
+INFO-FLOW: Preprocessing Module: GCT ...
+Execute         set_default_model GCT 
+Execute         cdfg_preprocess -model GCT 
+Execute         rtl_gen_preprocess GCT 
+INFO-FLOW: Preprocessing Module: algo_unpacked ...
+Execute         set_default_model algo_unpacked 
+Execute         cdfg_preprocess -model algo_unpacked 
+Execute         rtl_gen_preprocess algo_unpacked 
+INFO-FLOW: Model list for synthesis: mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mergeClusters' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         set_default_model mergeClusters 
+Execute         schedule -model mergeClusters 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'mergeClusters'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 3, Final II = 1, Depth = 1.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 100.7 seconds; current allocated memory: 0.284 MB.
+Execute         report -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.verbose.sched.rpt -verbose -f 
+Execute         db_write -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.sched.adb -f 
+INFO-FLOW: Finish scheduling mergeClusters.
+Execute         set_default_model mergeClusters 
+Execute         bind -model mergeClusters 
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=mergeClusters
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.07 seconds; current allocated memory: 0.284 MB.
+Execute         report -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.verbose.bind.rpt -verbose -f 
+Execute         db_write -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.bind.adb -f 
+INFO-FLOW: Finish binding mergeClusters.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'merge_acrossphi' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         set_default_model merge_acrossphi 
+Execute         schedule -model merge_acrossphi 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'merge_acrossphi'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 3, Final II = 3, Depth = 3.
+WARNING: [SCHED 204-21] Estimated clock period (7.86843ns) exceeds the target (target clock period: 8.33333ns, clock uncertainty: 1.04167ns, effective delay budget: 7.29167ns).
+WARNING: [SCHED 204-21] The critical path consists of the following:
+	'call' operation ('call_ret_0_4', src/GCT.cc:327) to 'mergeClusters' (2.71 ns)
+	'mux' operation ('outpeakPhi432_1', src/GCT.cc:327) (1.72 ns)
+	multiplexor before 'phi' operation ('outpeakEta[0][2]', src/GCT.cc:327) with incoming values : ('outpeakEta', src/GCT.cc:327) (0.871 ns)
+	'phi' operation ('outpeakEta[0][2]', src/GCT.cc:327) with incoming values : ('outpeakEta', src/GCT.cc:327) (0 ns)
+	'mux' operation ('outpeakEta364_4', src/GCT.cc:327) (1.72 ns)
+	multiplexor before 'phi' operation ('outpeakEta[0][17]', src/GCT.cc:327) with incoming values : ('outpeakEta', src/GCT.cc:327) ('outpeakEta364_4', src/GCT.cc:327) (0.85 ns)
+	'phi' operation ('outpeakEta[0][17]', src/GCT.cc:327) with incoming values : ('outpeakEta', src/GCT.cc:327) ('outpeakEta364_4', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_16', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_17', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_18', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_19', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_20', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_21', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_22', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_23', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_24', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_25', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_26', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_27', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_28', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_29', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_30', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_31', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_32', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_33', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_34', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_35', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_36', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_37', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_38', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_39', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_40', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_41', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_42', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_43', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_44', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_45', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_46', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_47', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_48', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_49', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_50', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_51', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_52', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_53', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_54', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_55', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_56', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_57', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_58', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_59', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_60', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_61', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_62', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_63', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_64', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_65', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_66', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_67', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_68', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_69', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_70', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_71', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_72', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_73', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_74', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_75', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_76', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_77', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_78', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_79', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_80', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_81', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_82', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_83', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_84', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_85', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_86', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_87', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_88', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_89', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_90', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_91', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_92', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_93', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_94', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_95', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_96', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_97', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_98', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_99', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_100', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_101', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_102', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_103', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_104', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_105', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_106', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_107', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_108', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_109', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_110', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_111', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_112', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_113', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_114', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_115', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_116', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_117', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_118', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_119', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_120', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_121', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_122', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_123', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_124', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_125', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_126', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_127', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_128', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_129', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_130', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_131', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_132', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_133', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_134', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_135', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_136', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_137', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_138', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_139', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_140', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_141', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_142', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_143', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_144', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_145', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_146', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_147', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_148', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_149', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_150', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_151', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_152', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_153', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_154', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_155', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_156', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_157', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_158', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_159', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_160', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_161', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_162', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_163', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_164', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_165', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_166', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_167', src/GCT.cc:327) (0 ns)
+	'insertvalue' operation ('mrv_168', src/GCT.cc:327) (0 ns)
+INFO: [SCHED 204-11] Finished scheduling.
+Command         schedule done; 4.99 sec.
+INFO: [HLS 200-111]  Elapsed time: 5.05 seconds; current allocated memory: 0.284 MB.
+Execute         report -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.verbose.sched.rpt -verbose -f 
+Command         report done; 0.78 sec.
+Execute         db_write -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.sched.adb -f 
+Command         db_write done; 0.59 sec.
+INFO-FLOW: Finish scheduling merge_acrossphi.
+Execute         set_default_model merge_acrossphi 
+Execute         bind -model merge_acrossphi 
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=merge_acrossphi
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command         bind done; 1.14 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.51 seconds; current allocated memory: 0.284 MB.
+Execute         report -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.verbose.bind.rpt -verbose -f 
+Command         report done; 1.4 sec.
+Execute         db_write -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.bind.adb -f 
+Command         db_write done; 0.56 sec.
+INFO-FLOW: Finish binding merge_acrossphi.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mergeClusters1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         set_default_model mergeClusters1 
+Execute         schedule -model mergeClusters1 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'mergeClusters1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 3, Final II = 1, Depth = 1.
+INFO: [SCHED 204-11] Finished scheduling.
+Command         schedule done; 0.26 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.28 seconds; current allocated memory: 0.284 MB.
+Execute         report -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.verbose.sched.rpt -verbose -f 
+Execute         db_write -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.sched.adb -f 
+INFO-FLOW: Finish scheduling mergeClusters1.
+Execute         set_default_model mergeClusters1 
+Execute         bind -model mergeClusters1 
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=mergeClusters1
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.09 seconds; current allocated memory: 0.284 MB.
+Execute         report -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.verbose.bind.rpt -verbose -f 
+Execute         db_write -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.bind.adb -f 
+INFO-FLOW: Finish binding mergeClusters1.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'GCT' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         set_default_model GCT 
+Execute         schedule -model GCT 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'GCT'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 3, Final II = 3, Depth = 4.
+INFO: [SCHED 204-11] Finished scheduling.
+Command         schedule done; 2.46 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.52 seconds; current allocated memory: 0.284 MB.
+Execute         report -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.verbose.sched.rpt -verbose -f 
+Command         report done; 0.69 sec.
+Execute         db_write -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.sched.adb -f 
+Command         db_write done; 0.67 sec.
+INFO-FLOW: Finish scheduling GCT.
+Execute         set_default_model GCT 
+Execute         bind -model GCT 
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=GCT
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command         bind done; 1.53 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.89 seconds; current allocated memory: 0.284 MB.
+Execute         report -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.verbose.bind.rpt -verbose -f 
+Command         report done; 2.8 sec.
+Execute         db_write -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.bind.adb -f 
+Command         db_write done; 0.68 sec.
+INFO-FLOW: Finish binding GCT.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'algo_unpacked' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         set_default_model algo_unpacked 
+Execute         schedule -model algo_unpacked 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'algo_unpacked'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 3, Final II = 3, Depth = 4.
+INFO: [SCHED 204-11] Finished scheduling.
+Command         schedule done; 0.92 sec.
+INFO: [HLS 200-111]  Elapsed time: 4.52 seconds; current allocated memory: 0.284 MB.
+Execute         report -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.verbose.sched.rpt -verbose -f 
+Command         report done; 0.59 sec.
+Execute         db_write -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.sched.adb -f 
+Command         db_write done; 0.6 sec.
+INFO-FLOW: Finish scheduling algo_unpacked.
+Execute         set_default_model algo_unpacked 
+Execute         bind -model algo_unpacked 
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=algo_unpacked
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command         bind done; 1.51 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.7 seconds; current allocated memory: 0.284 MB.
+Execute         report -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.verbose.bind.rpt -verbose -f 
+Command         report done; 3.06 sec.
+Execute         db_write -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.bind.adb -f 
+Command         db_write done; 0.6 sec.
+INFO-FLOW: Finish binding algo_unpacked.
+Execute         get_model_list algo_unpacked -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute         rtl_gen_preprocess mergeClusters 
+Execute         rtl_gen_preprocess merge_acrossphi 
+Execute         rtl_gen_preprocess mergeClusters1 
+Execute         rtl_gen_preprocess GCT 
+Execute         rtl_gen_preprocess algo_unpacked 
+INFO-FLOW: Model list for RTL generation: mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mergeClusters' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         get_config_rtl -prefix 
+Execute         get_config_rtl -auto_prefix 
+Execute         create_rtl_model mergeClusters -vendor xilinx -mg_file /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mergeClusters'.
+INFO: [HLS 200-111]  Elapsed time: 3.87 seconds; current allocated memory: 0.284 MB.
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute         gen_rtl mergeClusters -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/systemc/mergeClusters -synmodules mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked 
+Execute         gen_rtl mergeClusters -style xilinx -f -lang vhdl -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/vhdl/mergeClusters 
+Execute         gen_rtl mergeClusters -style xilinx -f -lang vlog -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/verilog/mergeClusters 
+Execute         gen_tb_info mergeClusters -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters -p /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db 
+Execute         report -model mergeClusters -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/report/mergeClusters_csynth.rpt -f 
+Execute         report -model mergeClusters -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/report/mergeClusters_csynth.xml -f -x 
+Execute         report -model mergeClusters -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.verbose.rpt -verbose -f 
+Execute         db_write -model mergeClusters -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.adb -f 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'merge_acrossphi' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         get_config_rtl -prefix 
+Execute         get_config_rtl -auto_prefix 
+Execute         create_rtl_model merge_acrossphi -vendor xilinx -mg_file /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.compgen.tcl 
+INFO: [SYN 201-210] Renamed object name 'algo_unpacked_mux_325_16_1_1' to 'algo_unpacked_muxbkb' due to the length limit 20
+INFO: [RTGEN 206-104] Estimated max fanout for 'merge_acrossphi' is 5332 from HDL expression: (1'b1 == ap_CS_fsm_state3)
+INFO: [RTGEN 206-100] Generating core module 'algo_unpacked_muxbkb': 153 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'merge_acrossphi'.
+Command         create_rtl_model done; 8.82 sec.
+INFO: [HLS 200-111]  Elapsed time: 8.94 seconds; current allocated memory: 0.284 MB.
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute         gen_rtl merge_acrossphi -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/systemc/merge_acrossphi -synmodules mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked 
+Execute         gen_rtl merge_acrossphi -style xilinx -f -lang vhdl -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/vhdl/merge_acrossphi 
+Execute         gen_rtl merge_acrossphi -style xilinx -f -lang vlog -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/verilog/merge_acrossphi 
+Execute         gen_tb_info merge_acrossphi -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi -p /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db 
+Command         gen_tb_info done; 0.3 sec.
+Execute         report -model merge_acrossphi -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/report/merge_acrossphi_csynth.rpt -f 
+Command         report done; 0.32 sec.
+Execute         report -model merge_acrossphi -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/report/merge_acrossphi_csynth.xml -f -x 
+Command         report done; 0.3 sec.
+Execute         report -model merge_acrossphi -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.verbose.rpt -verbose -f 
+Command         report done; 1.73 sec.
+Execute         db_write -model merge_acrossphi -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.adb -f 
+Command         db_write done; 0.99 sec.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mergeClusters1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         get_config_rtl -prefix 
+Execute         get_config_rtl -auto_prefix 
+Execute         create_rtl_model mergeClusters1 -vendor xilinx -mg_file /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mergeClusters1'.
+INFO: [HLS 200-111]  Elapsed time: 4.26 seconds; current allocated memory: 0.284 MB.
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute         gen_rtl mergeClusters1 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/systemc/mergeClusters1 -synmodules mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked 
+Execute         gen_rtl mergeClusters1 -style xilinx -f -lang vhdl -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/vhdl/mergeClusters1 
+Execute         gen_rtl mergeClusters1 -style xilinx -f -lang vlog -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/verilog/mergeClusters1 
+Execute         gen_tb_info mergeClusters1 -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1 -p /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db 
+Execute         report -model mergeClusters1 -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/report/mergeClusters1_csynth.rpt -f 
+Execute         report -model mergeClusters1 -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/report/mergeClusters1_csynth.xml -f -x 
+Execute         report -model mergeClusters1 -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.verbose.rpt -verbose -f 
+Execute         db_write -model mergeClusters1 -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.adb -f 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'GCT' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         get_config_rtl -prefix 
+Execute         get_config_rtl -auto_prefix 
+Execute         create_rtl_model GCT -vendor xilinx -mg_file /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.compgen.tcl 
+INFO: [RTGEN 206-104] Estimated max fanout for 'GCT' is 5760 from HDL expression: ((ap_enable_reg_pp0_iter1 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0) & (1'b0 == ap_block_pp0_stage0_11001))
+INFO: [RTGEN 206-100] Finished creating RTL model for 'GCT'.
+Command         create_rtl_model done; 24.7 sec.
+INFO: [HLS 200-111]  Elapsed time: 24.85 seconds; current allocated memory: 0.284 MB.
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute         gen_rtl GCT -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/systemc/GCT -synmodules mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked 
+Execute         gen_rtl GCT -style xilinx -f -lang vhdl -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/vhdl/GCT 
+Execute         gen_rtl GCT -style xilinx -f -lang vlog -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/verilog/GCT 
+Execute         gen_tb_info GCT -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT -p /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db 
+Command         gen_tb_info done; 0.27 sec.
+Execute         report -model GCT -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/report/GCT_csynth.rpt -f 
+Command         report done; 0.29 sec.
+Execute         report -model GCT -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/report/GCT_csynth.xml -f -x 
+Command         report done; 0.25 sec.
+Execute         report -model GCT -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.verbose.rpt -verbose -f 
+Command         report done; 3.1 sec.
+Execute         db_write -model GCT -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.adb -f 
+Command         db_write done; 1.12 sec.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'algo_unpacked' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         get_config_rtl -prefix 
+Execute         get_config_rtl -auto_prefix 
+Execute         create_rtl_model algo_unpacked -vendor xilinx -mg_file /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.compgen.tcl 
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_2_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_3_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_4_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_5_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_6_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_7_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_8_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_9_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_10_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_11_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_12_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_13_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_14_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_15_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_16_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_17_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_18_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_19_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_20_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_21_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_22_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_23_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_24_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_25_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_26_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_27_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_28_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_29_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_30_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_31_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_32_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_33_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_34_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_35_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_36_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_37_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_38_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_39_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_40_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_41_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_42_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_43_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_44_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_45_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_46_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_in_47_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_0_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_1_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_2_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_3_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_4_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_5_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_6_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_7_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_8_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_9_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_10_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_11_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_12_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_13_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_14_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_15_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_16_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_17_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_18_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_19_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_20_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_21_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_22_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_23_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_24_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_25_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_26_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_27_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_28_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_29_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_30_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_31_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_32_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_33_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_34_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_35_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_36_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_37_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_38_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_39_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_40_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_41_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_42_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_43_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_44_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_45_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_46_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'algo_unpacked/link_out_47_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'algo_unpacked' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'first' is power-on initialization.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'algo_unpacked'.
+Command         create_rtl_model done; 7.55 sec.
+INFO: [HLS 200-111]  Elapsed time: 13.29 seconds; current allocated memory: 0.284 MB.
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute         gen_rtl algo_unpacked -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/systemc/algo_unpacked -synmodules mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked 
+Execute         gen_rtl algo_unpacked -istop -style xilinx -f -lang vhdl -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/vhdl/algo_unpacked 
+Execute         gen_rtl algo_unpacked -istop -style xilinx -f -lang vlog -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/verilog/algo_unpacked 
+Execute         export_constraint_db -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.constraint.tcl -f -tool general 
+Execute         report -model algo_unpacked -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.design.xml -verbose -f -dv 
+Command         report done; 1.15 sec.
+Execute         report -model algo_unpacked -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.sdaccel.xml -verbose -f -sdaccel 
+Execute         gen_tb_info algo_unpacked -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked -p /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db 
+Execute         report -model algo_unpacked -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/report/algo_unpacked_csynth.rpt -f 
+Execute         report -model algo_unpacked -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/syn/report/algo_unpacked_csynth.xml -f -x 
+Execute         report -model algo_unpacked -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.verbose.rpt -verbose -f 
+Command         report done; 2.93 sec.
+Execute         db_write -model algo_unpacked -o /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.adb -f 
+Command         db_write done; 1.07 sec.
+Execute         sc_get_clocks algo_unpacked 
+Execute         sc_get_portdomain algo_unpacked 
+INFO-FLOW: Model list for RTL component generation: mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked
+INFO-FLOW: Handling components in module [mergeClusters] ... 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.compgen.tcl 
+INFO-FLOW: Handling components in module [merge_acrossphi] ... 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.compgen.tcl 
+INFO-FLOW: Found component algo_unpacked_muxbkb.
+INFO-FLOW: Append model algo_unpacked_muxbkb
+INFO-FLOW: Found component algo_unpacked_muxbkb.
+INFO-FLOW: Append model algo_unpacked_muxbkb
+INFO-FLOW: Handling components in module [mergeClusters1] ... 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.compgen.tcl 
+INFO-FLOW: Handling components in module [GCT] ... 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.compgen.tcl 
+INFO-FLOW: Handling components in module [algo_unpacked] ... 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.compgen.tcl 
+INFO-FLOW: Append model mergeClusters
+INFO-FLOW: Append model merge_acrossphi
+INFO-FLOW: Append model mergeClusters1
+INFO-FLOW: Append model GCT
+INFO-FLOW: Append model algo_unpacked
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: algo_unpacked_muxbkb algo_unpacked_muxbkb mergeClusters merge_acrossphi mergeClusters1 GCT algo_unpacked
+INFO-FLOW: To file: write model algo_unpacked_muxbkb
+INFO-FLOW: To file: write model algo_unpacked_muxbkb
+INFO-FLOW: To file: write model mergeClusters
+INFO-FLOW: To file: write model merge_acrossphi
+INFO-FLOW: To file: write model mergeClusters1
+INFO-FLOW: To file: write model GCT
+INFO-FLOW: To file: write model algo_unpacked
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+Execute         get_config_sdx -target 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7_fpv6.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.compgen.tcl 
+Execute         get_config_sdx -target 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute                 source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7_fpv6.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.compgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.constraint.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.constraint.tcl 
+Execute         sc_get_clocks algo_unpacked 
+Execute         source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute         get_config_sdx -target 
+Execute         get_config_sdx -profile 
+Execute         ::config_rtl 
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:02:50 ; elapsed = 00:03:06 . Memory (MB): peak = 1705.023 ; gain = 1344.219 ; free physical = 5420 ; free virtual = 72666
+INFO: [SYSC 207-301] Generating SystemC RTL for algo_unpacked.
+INFO: [VHDL 208-304] Generating VHDL RTL for algo_unpacked.
+INFO: [VLOG 209-307] Generating Verilog RTL for algo_unpacked.
+Command       autosyn done; 85.5 sec.
+Command     csynth_design done; 181.61 sec.
+Execute     cosim_design -argv test1 -trace_level all 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7_fpv6.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/rnd_out_ref.txt 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/rnd_inp.txt 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/test1_out_ref.txt 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/data/test1_inp.txt 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/algo_unpacked_tb.cpp 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/GCT.cc 
+Execute       is_encrypted /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/algo_unpacked.cpp 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+Execute       get_default_platform 
+INFO-FLOW: TB processing: /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/algo_unpacked_tb.cpp /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/./sim/autowrap/testbench/algo_unpacked_tb.cpp_pre.cpp
+INFO-FLOW: Marker-Pragma convertor: /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/./sim/autowrap/testbench/algo_unpacked_tb.cpp_pre.cpp /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/./sim/autowrap/testbench/algo_unpacked_tb.cpp_pre.cpp.line.cpp ./sim/autowrap/testbench/line.tmp 1
+INFO-FLOW: Converting Markers to Pragmas...
+INFO-FLOW: Marker-Pragma convertor: ./sim/autowrap/testbench/algo_unpacked_tb.cpp_pre.cpp.tb.cpp.line ./sim/autowrap/testbench/algo_unpacked_tb.cpp_pre.cpp.tb.cpp ./sim/autowrap/testbench/line.tmp 0
+INFO-FLOW: Converting Pragmas to Markers...
+Execute       get_default_platform 
+INFO-FLOW: TB processing: /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/GCT.cc /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/./sim/autowrap/testbench/GCT.cc_pre.cc
+INFO-FLOW: Marker-Pragma convertor: /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/./sim/autowrap/testbench/GCT.cc_pre.cc /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/./sim/autowrap/testbench/GCT.cc_pre.cc.line.cc ./sim/autowrap/testbench/line.tmp 1
+INFO-FLOW: Converting Markers to Pragmas...
+INFO-FLOW: Marker-Pragma convertor: ./sim/autowrap/testbench/GCT.cc_pre.cc.tb.cc.line ./sim/autowrap/testbench/GCT.cc_pre.cc.tb.cc ./sim/autowrap/testbench/line.tmp 0
+INFO-FLOW: Converting Pragmas to Markers...
+Execute       get_default_platform 
+INFO-FLOW: TB processing: /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/src/algo_unpacked.cpp /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/./sim/autowrap/testbench/algo_unpacked.cpp_pre.cpp
+INFO-FLOW: Marker-Pragma convertor: /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/./sim/autowrap/testbench/algo_unpacked.cpp_pre.cpp /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/./sim/autowrap/testbench/algo_unpacked.cpp_pre.cpp.line.cpp ./sim/autowrap/testbench/line.tmp 1
+INFO-FLOW: Converting Markers to Pragmas...
+INFO-FLOW: Marker-Pragma convertor: ./sim/autowrap/testbench/algo_unpacked.cpp_pre.cpp.tb.cpp.line ./sim/autowrap/testbench/algo_unpacked.cpp_pre.cpp.tb.cpp ./sim/autowrap/testbench/line.tmp 0
+INFO-FLOW: Converting Pragmas to Markers...
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/./sim/autowrap/testbench/tb.status.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       get_default_platform 
+Execute       source .run_sim.tcl 
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Command       ap_source done; 2.02 sec.
+INFO: [COSIM 212-333] Generating C post check test bench ...
+Execute       get_default_platform 
+INFO: [COSIM 212-12] Generating RTL test bench ...
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source ../tv/cdatafile/ref.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source ../tv/cdatafile/ref.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source .run_sim.tcl 
+Execute         source check_sim.tcl 
+Execute         source .sim.status.tcl 
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+Command       ap_source done; 28.11 sec.
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+Command     cosim_design done; 66.13 sec.
+Execute     export_design -format ip_catalog -display_name HLS Algorithm IP -description HLS Algorithm IP -library hls -vendor cern-cms -version 1.0 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7_fpv6.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       get_config_sdx -target 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7_fpv6.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/merge_acrossphi.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/mergeClusters1.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/GCT.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.compgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.constraint.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.constraint.tcl 
+Execute       sc_get_clocks algo_unpacked 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       get_config_sdx -target 
+Execute       get_config_sdx -profile 
+Execute       ::config_rtl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.rtl_wrap.cfg.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.constraint.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.constraint.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.constraint.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/algo_unpacked.tbgen.tcl 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute       source /data/skamat/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/CMSPhase2GCT/vivado_hls/proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute               source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Execute             source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Execute           source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Execute       source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/virtex7/virtex7_fpv6.gen 
+Execute         source /data/tools/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command     export_design done; 12.01 sec.
+Execute     cleanup_all 
+Command     cleanup_all done; 0.8 sec.
