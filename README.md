@@ -17,12 +17,12 @@ git lfs install
 git version
 git-lfs version
 git clone --recursive git@github.com:APxL1TAlgoDev/APx_Gen0_Algo.git (Cloning Algo project)
-git clone --recursive git@github.com:APxL1TAlgoDev/APx_Gen0_Infra.git (Cloning Infra project- for step 2)
+git clone --recursive git@github.com:APxL1TAlgoDev/APx_Gen0_Infra.git (Cloning Infra project)
 cd APx_Gen0_Algo
 cd VivadoHls/null_algo_unpacked/vivado_hls (Keep all your Vivado HLS projects in this file directory)
 mkdir /scratch/$USER/CMSPhase2HLS/APx_Gen0_Algo/build
 On how to use one of the existing projects and incorporate your source files into it, see note later.
-vivado_hls -f run_hls.tcl (see below to understand this command)
+vivado_hls -f run_hls.tcl (Read vivado_hls command note to understand this better)
 ```
 
 STEP-2: Using Infra project to generate bitfile
@@ -30,7 +30,8 @@ STEP-2: Using Infra project to generate bitfile
 change directory to Infra: cd /scratch/$USER/CMSPhase2HLS/APx_Gen0_Infra (/data/$USER/CMSPhase2HLS/APx_Gen0_Infra)
 mkdir build (only first time)
 cd firmware
-Edit ruckus.tcl file and provide correct path to your HLS ruckus.tcl file. (If you are following the format of this README, this path should be /scratch/$USER/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/hls_project_name)
+Edit ruckus.tcl file and provide correct path to your HLS ruckus.tcl file. 
+(If you are following the format of this README, this path should be /scratch/$USER/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/hls_project_name)
 make clean 
 make (nohub make &> make.log & - to make it run in background)
 ```
@@ -39,9 +40,10 @@ STEP-3: Generating Bitfile
 ```
 
 ```
-Using one of demo hls projects from Algo repo 
+Using one of demo HLS projects from Algo repository: 
 ```
-For maintaining the file format, it is recommended to use one of the existing demo projects and modify it according to your source files.
+For maintaining the file format, it is recommended to use one of the existing demo projects 
+and modify it according to your source files.
 Following changes need to be made:
 1. cp -R one of the existing projects (null_algo/test_algo) and rename it 
 2. Copy your source files into vivado_hls/src folder
@@ -49,7 +51,7 @@ Following changes need to be made:
 4. (Optional) Edit the input test vector file as required in the vivado_hls/data folder
 5. Run the vivado_hls -f run_hls.tcl script
 ```
-vivado_hls
+vivado_hls command:
 ```
 Internally, the “run_hls.tcl” script uses 5 parameters that steer the build process:
 
