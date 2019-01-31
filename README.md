@@ -39,7 +39,7 @@ make (nohub make &> make.log & - to make it run in background)
 STEP-3: Bitfile on Gen0
 ```
 Login to ayinger (UW Madison CPU)
-Copy the bitfile onto a Gen-0 CTP7 to tmp folder: scp <bitfile> uwguest@eagle50:/tmp 
+Copy the bitfile onto a Gen-0 CTP7 to tmp folder: scp <bitfile> uwguest@eagle<card_ID>:/tmp 
 Layer 1: eagle 65 card_ID=0, eagle 54 card_ID=1 and Layer 2: eagle50 card_ID=2
 For permission related query, contact Aleš.
 git clone https://github.com/APxL1TAlgoDev/APx_Gen0_SW
