@@ -36,9 +36,27 @@ make clean
 make (nohub make &> make.log & - to make it run in background)
 ```
 
-STEP-3: Generating Bitfile
+STEP-3: Bitfile on Gen0
 ```
+Login to ayinger (UW Madison CPU)
+Copy the bitfile onto a Gen-0 CTP7 to tmp folder: scp <bitfile> uwguest@eagle50:/tmp 
+Layer 1: eagle 65 card_ID=0, eagle 54 card_ID=1 and Layer 2: eagle50 card_ID=2
+For permission related query, contact Aleš.
+git clone https://github.com/APxL1TAlgoDev/APx_Gen0_SW
+cd APx_Gen0_SW/pc_client
+ln -sf CTP7Map_UW.xml CTP7Map.xml
+make
+source env.sh
+mkdir data
+./card_config <card_ID>  <bitfile_name>
+please note to drop .bit extension when passing <bitfile_name> to the application
 
+./layer1_config <card_ID>
+
+Copy your input test vector and output reference test vector files to your local data dir
+Inject input test vectors: ./upload_inputs  <card_ID> inp.txt
+Download outputs: ./download_outputs <card_ID> out.txt
+Compare out.txt with out_ref.txt to verify.
 ```
 Using one of demo HLS projects from Algo repository: 
 ```
