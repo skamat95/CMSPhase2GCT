@@ -40,7 +40,7 @@ STEP-3: Bitfile on Gen0
 ```
 Make a reservation for Test stand: https://github.com/APxL1TAlgoDev/APx_Gen0_Algo/wiki/Access-to-test-stands
 Login to ayinger (UW Madison CPU)
-Copy the bitfile onto a Gen-0 CTP7 to tmp folder: scp <bitfile> uwguest@eagle<card_ID>:/tmp 
+Copy the bitfile onto a Gen-0 CTP7 to tmp folder: scp <bitfile> uwguest@eagle<65/54/50>:/tmp 
 Layer 1: eagle 65 card_ID=0, eagle 54 card_ID=1 and Layer 2: eagle50 card_ID=2
 For permission related query, contact Aleš.
 git clone https://github.com/APxL1TAlgoDev/APx_Gen0_SW
