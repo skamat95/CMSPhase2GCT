@@ -33,7 +33,7 @@ cd firmware
 Edit ruckus.tcl file and provide correct path to your HLS ruckus.tcl file. 
 (If you are following the format of this README, this path should be /scratch/$USER/CMSPhase2HLS/APx_Gen0_Algo/VivadoHls/hls_project_name)
 make clean 
-make (nohub make &> make.log & - to make it run in background)
+make (nohup make &> make.log & - to make it run in background)
 ```
 
 STEP-3: Bitfile on Gen0
